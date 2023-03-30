@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/clean-dent/static/css/main.d5a8e0e3.css",
+    "main.js": "/clean-dent/static/js/main.447cf681.js",
+    "static/media/Personal.png": "/clean-dent/static/media/Personal.c6bdae06c7d1d2f4cf69.png",
+    "static/media/about-image copy.jpg": "/clean-dent/static/media/about-image copy.6325ab39e63bb067431f.jpg",
+    "static/media/8.jpg": "/clean-dent/static/media/8.c989d1cab542cad989f2.jpg",
+    "static/media/5.jpg": "/clean-dent/static/media/5.56f42ed8095f928cae9f.jpg",
+    "static/media/img5.jpg": "/clean-dent/static/media/img5.671db592c73aaedb713c.jpg",
+    "static/media/2.jpg": "/clean-dent/static/media/2.293e2fdd402309547266.jpg",
+    "static/media/6.jpg": "/clean-dent/static/media/6.790816225607889cea14.jpg",
+    "static/media/img4.jpg": "/clean-dent/static/media/img4.094047b5cb107b3aa602.jpg",
+    "static/media/7.jpg": "/clean-dent/static/media/7.bf176db3247972b391c6.jpg",
+    "static/media/img3.jpg": "/clean-dent/static/media/img3.0f958197b7c7eca7b18e.jpg",
+    "static/media/3.jpg": "/clean-dent/static/media/3.ad3c26f2641c492861d4.jpg",
+    "static/media/img6.jpg": "/clean-dent/static/media/img6.a0425911e3a1a73521f1.jpg",
+    "static/media/1.jpg": "/clean-dent/static/media/1.3edbd16bd336ff12e4ac.jpg",
+    "static/media/img2.jpg": "/clean-dent/static/media/img2.7130b59a291f37aa32e4.jpg",
+    "static/media/img1.jpg": "/clean-dent/static/media/img1.09e4c79f449a68a7fd5d.jpg",
+    "static/media/4.jpg": "/clean-dent/static/media/4.8eccecfdc58893534465.jpg",
+    "static/media/Logo.png": "/clean-dent/static/media/Logo.f57507be3cbcdfa6713c.png",
+    "static/media/specialist2.jpg": "/clean-dent/static/media/specialist2.39f4d19304cf96585ab0.jpg",
+    "static/media/specialist3.jpg": "/clean-dent/static/media/specialist3.db56614bb508166f7b0b.jpg",
+    "static/media/specialist1.jpg": "/clean-dent/static/media/specialist1.90d95f09e2918565f0be.jpg",
+    "index.html": "/clean-dent/index.html",
+    "main.d5a8e0e3.css.map": "/clean-dent/static/css/main.d5a8e0e3.css.map",
+    "main.447cf681.js.map": "/clean-dent/static/js/main.447cf681.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5a8e0e3.css",
+    "static/js/main.447cf681.js"
+  ]
+}
