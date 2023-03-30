@@ -1,0 +1,86 @@
+
+
+.about_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_image {
+    width: 500px;
+    margin-left: 50px;
+}
+
+.about_subtitle {
+    display: block;
+    margin: 20px 150px 0;
+}
+
+.about_right_title {
+    font-size: 24px;
+    width: 200px;
+    padding: 5px;
+}
+
+.about_right_shadow {
+    width: 210px;
+    height: 40px;
+    margin-bottom: -50px;
+    margin-left: 10px;
+}
+
+.about_elements {
+    margin: 30px 50px 0;
+    max-width: 450px;
+}
+
+.about_element_title {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.about_element_text {
+    color: black;
+    font-family: "PT Serif";
+    font-size: 16px;
+    margin: 10px;
+}
+
+.service {
+    margin: 5px;
+}
+
+.tooth {
+    color: black;
+    margin: 0 10px;
+}
+
+/*Procedures*/
+
+.procedure {
+    display: flex;
+    width: 100%;
+}
+.procedure_for_image, .procedure_for_text {
+    width: 50%;
+    padding: 50px;
+}
+
+.procedure_image {
+    border-radius: 30px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 30%);
+}
+.procedure_for_text{
+    position: relative;
+}
+.procedure_text {
+    font-family: "PT Serif";
+    font-size: 20px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}

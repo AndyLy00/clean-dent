@@ -1,0 +1,53 @@
+.specialist_list {
+    width: 100%;
+    background-color: #F5D4BA;
+    display: flex;
+    justify-content: center;
+}
+.specialist {
+    /*box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0, rgba(27, 31, 35, 0.15) 0 0 0 1px;*/
+    max-width: 275px;
+}
+.specialist_left, .specialist_right {
+    width: 50px;
+    margin: auto 0;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+}
+
+.specialist_icon {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-color: white ;
+    border-radius: 50%;
+    margin: 30px auto;
+    display: inherit;
+}
+
+.specialist_name {
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.specialist_job {
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    color: black;
+}
+
+.specialist_text {
+    margin: 10px 30px 30px;
+}
+
+.team_space {
+    padding-bottom: 60px;
+}
+

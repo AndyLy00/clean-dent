@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    bottom: 0;
+    background-color: #F5D4BA;
+    font-size: 24px;
+    height: 60px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.footer_logo {
+    margin: 10px;
+}
+
+.copyright {
+    color: black;
+    margin: 15px 0 10px ;
+}

@@ -1,0 +1,22 @@
+.gallery_image {
+    width: 33.333333%;
+    height: 400px;
+    color: #F5D4BA;
+    box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.gallery_image:hover {
+    z-index: 500;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: transform 0.8s;
+}
+
+.first_raw, .second_raw, .third_raw {
+    display: flex;
+}
+

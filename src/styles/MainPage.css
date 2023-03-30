@@ -1,0 +1,95 @@
+.main_page {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top:0;
+    bottom:0;
+    padding-top: 60px;
+}
+
+.main_page_left {
+    margin: auto 100px;
+}
+
+.main_page_right {
+    margin: auto 0;
+}
+
+.main_page_title {
+    color: black;
+    background-color: #F5D4BA;
+    width: 260px;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 5px 5px 5px #999999;
+}
+
+.main_page_text {
+    margin: 50px 0;
+    max-width: 300px;
+    text-indent: 30px;
+    font-size: 18px;
+}
+
+.main_page_image {
+    margin: 100px 50px;
+    width: 600px;
+}
+
+.waves {
+    position: absolute;
+    bottom: 0;
+    width: 1200px;
+
+}
+
+.main_page_button {
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    color: black;
+    font-size: 18px;
+    border-radius: 4px;
+    background: #F5D4BA;
+    background-size: 150%;
+    transition: 1s;
+    margin-left: 150px;
+    text-decoration: none;
+    padding: 10px 20px;
+    box-shadow: 0 0 0 1px black;
+}
+.main_page_button:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0 18px 36px -18px inset;
+}
+.main_page_button:focus {
+    outline: none;
+}
+
+.slogan {
+    overflow: hidden;
+    position: absolute;
+    top: 60px;
+    z-index: 3;
+    width: 100%;
+    max-width: 1200px;
+    height: 300px;
+    color: black;
+    text-align: center;
+}
+
+.slogan_title {
+    z-index: 5;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin: 20px 0 0;
+}
+
+.slogan_text {
+    z-index: 5;
+    font-size: 30px;
+    margin: 5px 0 0;
+
+}

@@ -1,0 +1,41 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: #F5D4BA;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px, rgba(0, 0, 0, 0.2) 0 -3px 0 inset;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    color: black;
+    height: 60px;
+    width: 1200px;
+}
+
+.navbar_left {
+    margin: 10px 30px;
+    position: relative;
+}
+
+.navbar_right {
+    margin: 10px 30px;
+    display: flex;
+}
+
+.navbar_element {
+    margin: 5px 30px 0;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    transition: all;
+}
+
+.navbar_element:hover{
+   color: black;
+}
+
+.logo {
+    position: absolute;
+    width: 200px;
+    cursor: pointer;
+}
