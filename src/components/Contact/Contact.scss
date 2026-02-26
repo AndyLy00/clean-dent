@@ -1,0 +1,58 @@
+@use "../../styles/variables" as colors;
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(colors.$primary, 0.5);
+
+  &__info {
+    margin-top: 2rem;
+  }
+
+  &__container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  &__networks {
+    text-align: start;
+  }
+
+  &__element {
+    display: flex;
+    gap: 1rem;
+    word-break: break-all;
+  }
+
+  &__icon {
+    width: 16px;
+    height: 24px;
+  }
+
+  .map {
+    width: 100%;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0 1rem;
+  }
+}
+
+.working {
+  &__hours {
+    display: flex;
+    justify-content: center;
+  }
+  &__first-column {
+    width: 100px;
+
+    .day {
+      text-align: start;
+    }
+  }
+}

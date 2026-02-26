@@ -1,0 +1,51 @@
+@use "../../styles/variables" as colors;
+
+.team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: rgba(colors.$primary, 0.5);
+
+  &__slider {
+    margin-top: 2rem;
+  }
+
+  .slider-element {
+    padding: 0 0.5rem;
+  }
+
+  .team-member {
+    width: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+    background-color: colors.$white;
+
+    img {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+    }
+
+    &__data {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 1rem 1.5rem;
+      background-color: colors.$white;
+      color: colors.$secondary;
+    }
+
+    &__name {
+      font-weight: bold;
+    }
+
+    &__job {
+      font-style: italic;
+    }
+  }
+}

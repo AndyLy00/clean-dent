@@ -1,0 +1,88 @@
+@use "../../styles/variables" as colors;
+.hero {
+  width: 100%;
+  background-color: colors.$white;
+  padding-top: 85px;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  .container {
+    height: 100%;
+    padding-top: 5rem;
+    position: relative;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 3;
+    color: colors.$secondary;
+
+    h1 {
+      font-size: 4rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    button {
+      width: fit-content;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  &__btn {
+    width: fit-content;
+  }
+
+  &__images {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    opacity: 50%;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .hero {
+    &__text {
+      width: 80%;
+
+      h1 {
+        font-size: 5rem;
+      }
+
+      h2 {
+        font-size: 3rem;
+      }
+
+      h5 {
+        max-width: 500px;
+      }
+    }
+    &__images {
+      right: 1rem;
+    }
+    &__buttons {
+      flex-direction: column;
+      justify-content: start;
+    }
+  }
+}

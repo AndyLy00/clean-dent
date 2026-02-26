@@ -1,0 +1,27 @@
+:root {
+    font-family: "Inter", sans-serif;
+    background-color: #F8FAFC;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif;
+}
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #4B5563;
+}
+a {
+    all: unset;
+}
+a:hover {
+    color: #959595;
+    cursor: pointer;
+}
+
+.modal {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (prefers-color-scheme: light) {
+
+}

@@ -1,0 +1,27 @@
+$primary:   #959595;
+$secondary: #4B5563;
+$accent:    #0EA5E9;
+
+$success: #22C55E;
+$error:   #EF4444;
+$warning: #F59E0B;
+$info:    #06B6D4;
+$danger:  #DC2626;
+
+$light: #F8FAFC;
+$dark:  #111827;
+$white: #FFFFFF;
+
+$theme-colors: (
+        "primary":   $primary,
+        "secondary": $secondary,
+        "accent":    $accent,
+        "success":   $success,
+        "error":     $error,
+        "info":      $info,
+        "warning":   $warning,
+        "danger":    $danger,
+        "light":     $light,
+        "dark":      $dark,
+        "white":     $white,
+);
