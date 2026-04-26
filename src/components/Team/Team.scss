@@ -78,8 +78,22 @@
     }
   }
 
+  @media (max-width: 1200px) {
+    .team-member {
+      &__image {
+        height: 460px;
+      }
+    }
+  }
+
   @media (max-width: 992px) {
     padding: 4rem 0;
+
+    .team-member {
+      &__image {
+        height: 420px;
+      }
+    }
   }
 
   @media (max-width: 576px) {
@@ -96,6 +110,9 @@
     }
 
     .team-member {
+      &__image {
+        height: 360px;
+      }
 
       &__data {
         padding: 0.8rem 1rem;
