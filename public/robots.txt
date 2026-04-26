@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://andyly00.github.io/clean-dent/sitemap.xml
