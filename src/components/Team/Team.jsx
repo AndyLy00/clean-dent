@@ -19,33 +19,31 @@ const teamMembers = [
 const Team = () => {
     const settings = {
         dots: false,
-        infinite: teamMembers.length > 4,
+        infinite: teamMembers.length > 1,
         speed: 500,
         slidesToShow: 4,
         slidesToScroll: 1,
         arrows: false,
         autoplay: true,
         autoplaySpeed: 3000,
+        mobileFirst: true,
         responsive: [
             {
-                breakpoint: 1200,
+                breakpoint: 576,
                 settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 1
+                    slidesToShow: 1
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1
+                    slidesToShow: 2
                 }
             },
             {
-                breakpoint: 576,
+                breakpoint: 1200,
                 settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToShow: 3
                 }
             }
         ]
