@@ -19,33 +19,31 @@ const teamMembers = [
 const Team = () => {
     const settings = {
         dots: false,
-        infinite: teamMembers.length > 4,
+        infinite: teamMembers.length > 1,
         speed: 500,
-        slidesToShow: 4,
+        slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
         autoplay: true,
         autoplaySpeed: 3000,
+        mobileFirst: true,
         responsive: [
             {
-                breakpoint: 1200,
+                breakpoint: 576,
                 settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 1
+                    slidesToShow: 2
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1
+                    slidesToShow: 3
                 }
             },
             {
-                breakpoint: 768,
+                breakpoint: 1200,
                 settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToShow: 4
                 }
             }
         ]
@@ -63,27 +61,26 @@ const Team = () => {
                     </div>
                 </div>
 
-                <div className="row team__slider">
-                    <div className="col-12">
-                        <Slider {...settings}>
-                            {teamMembers.map((member, index) => (
-                                <div className="slider-element" key={index}>
-                                    <div className="team-member">
-                                        <img
-                                            className="team-member__image"
-                                            alt={member.name}
-                                            src={member.image}
-                                        />
-                                        <div className="team-member__data">
-                                            <div className="team-member__name">{member.name}</div>
-                                            <div className="team-member__job">{member.job}</div>
-                                        </div>
+                <div className="team__slider">
+                    <Slider {...settings}>
+                        {teamMembers.map((member, index) => (
+                            <div className="slider-element" key={index}>
+                                <div className="team-member">
+                                    <img
+                                        className="team-member__image"
+                                        alt={member.name}
+                                        src={member.image}
+                                    />
+                                    <div className="team-member__data">
+                                        <div className="team-member__name">{member.name}</div>
+                                        <div className="team-member__job">{member.job}</div>
                                     </div>
                                 </div>
-                            ))}
-                        </Slider>
-                    </div>
+                            </div>
+                        ))}
+                    </Slider>
                 </div>
+
             </div>
         </div>
     );
