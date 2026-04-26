@@ -7,10 +7,11 @@
   text-align: center;
   padding: 5rem 0;
   background-color: rgba(colors.$primary, 0.5);
-  overflow: hidden; // important for slick
+  overflow: hidden;
 
   &__slider {
     margin-top: 2rem;
+    width: 100%;
   }
 
   .slick-slider {
@@ -19,6 +20,7 @@
 
   .slick-list {
     overflow: hidden;
+    margin: 0 -0.5rem;
   }
 
   .slick-track {
@@ -31,12 +33,11 @@
 
     > div {
       height: 100%;
+      padding: 0 0.5rem;
     }
   }
 
-  /* === SLIDE ITEM === */
   .slider-element {
-    padding: 0 0.5rem;
     height: 100%;
   }
 
@@ -47,8 +48,6 @@
     overflow: hidden;
     position: relative;
     background-color: colors.$white;
-    display: flex;
-    flex-direction: column;
 
     &__image {
       width: 100%;
@@ -65,7 +64,6 @@
       padding: 1rem 1.5rem;
       background-color: rgba(colors.$white, 0.95);
       color: colors.$secondary;
-      backdrop-filter: blur(4px);
     }
 
     &__name {
@@ -79,7 +77,14 @@
     }
   }
 
-  /* === TABLET === */
+  @media (max-width: 1200px) {
+    .team-member {
+      &__image {
+        height: 460px;
+      }
+    }
+  }
+
   @media (max-width: 992px) {
     padding: 4rem 0;
 
@@ -90,11 +95,17 @@
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 576px) {
     padding: 3rem 0;
 
-    .slider-element {
-      padding: 0 0.25rem;
+    .slick-list {
+      margin: 0 -0.4rem;
+    }
+
+    .slick-slide {
+      > div {
+        padding: 0 0.4rem;
+      }
     }
 
     .team-member {
@@ -112,18 +123,6 @@
 
       &__job {
         font-size: 0.85rem;
-      }
-    }
-  }
-
-  @media (max-width: 576px) {
-    .slider-element {
-      padding: 0;
-    }
-
-    .team-member {
-      &__image {
-        height: 320px;
       }
     }
   }
