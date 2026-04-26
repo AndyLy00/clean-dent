@@ -64,8 +64,8 @@ const Contact = () => {
                                 <div className="day">Duminică:</div>
                             </div>
                             <div className="working__second-column">
-                                <div className="time">9:00 AM - 7:00 PM</div>
-                                <div className="time">9:00 AM - 2:00 PM</div>
+                                <div className="time">9:00 - 19:00</div>
+                                <div className="time">9:00 - 14:00</div>
                                 <div className="time">-------------------</div>
                             </div>
                         </div>
