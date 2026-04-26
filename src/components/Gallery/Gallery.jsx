@@ -1,7 +1,7 @@
 import './Gallery.scss';
-import gallery1 from "../../assets/images/Gallery/gallery1.JPG";
-import gallery2 from "../../assets/images/Gallery/gallery2.JPG";
-import gallery3 from "../../assets/images/Gallery/gallery3.JPG";
+import gallery1 from "../../assets/images/Gallery/gallery1.webp";
+import gallery2 from "../../assets/images/Gallery/gallery2.webp";
+import gallery3 from "../../assets/images/Gallery/gallery3.webp";
 import {Button} from "react-bootstrap";
 
 const Gallery = () => {

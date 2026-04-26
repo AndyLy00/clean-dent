@@ -1,4 +1,4 @@
-import logo from '../../assets/images/MainPage/Logo.png';
+import logo from '../../assets/images/MainPage/Logo.webp';
 import './Header.scss';
 import {Button, Modal} from "react-bootstrap";
 import {useState} from "react";

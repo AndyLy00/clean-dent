@@ -1,5 +1,5 @@
 import './Hero.scss';
-import tooth from '../../assets/images/MainPage/Tooth.png';
+import tooth from '../../assets/images/MainPage/Tooth.webp';
 import {Button} from "react-bootstrap";
 
 const Hero = () => {

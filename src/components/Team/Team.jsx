@@ -1,11 +1,11 @@
 import './Team.scss';
 import Slider from 'react-slick';
-import team1 from '/src/assets/images/Team/team1.JPG';
-import team2 from '/src/assets/images/Team/team2.JPG';
-import team3 from '/src/assets/images/Team/team3.JPG';
-import team4 from '/src/assets/images/Team/team4.JPG';
-import team5 from '/src/assets/images/Team/team5.JPG';
-import team6 from '/src/assets/images/Team/team6.JPG';
+import team1 from '/src/assets/images/Team/team1.webp';
+import team2 from '/src/assets/images/Team/team2.webp';
+import team3 from '/src/assets/images/Team/team3.webp';
+import team4 from '/src/assets/images/Team/team4.webp';
+import team5 from '/src/assets/images/Team/team5.webp';
+import team6 from '/src/assets/images/Team/team6.webp';
 
 const teamMembers = [
     { image: team1, name: 'Team Member Name', job: 'Team Member Job' },
