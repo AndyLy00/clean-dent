@@ -49,6 +49,18 @@ const Team = () => {
         ]
     };
 
+    const settingsDesktop = {
+        dots: false,
+        infinite: teamMembers.length > 1,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        mobileFirst: true
+    };
+
     return (
         <div className="team" id="team">
             <div className="container">
@@ -61,8 +73,28 @@ const Team = () => {
                     </div>
                 </div>
 
-                <div className="team__slider">
+                <div className="team__slider d-xl-none">
                     <Slider {...settings}>
+                        {teamMembers.map((member, index) => (
+                            <div className="slider-element" key={index}>
+                                <div className="team-member">
+                                    <img
+                                        className="team-member__image"
+                                        alt={member.name}
+                                        src={member.image}
+                                    />
+                                    <div className="team-member__data">
+                                        <div className="team-member__name">{member.name}</div>
+                                        <div className="team-member__job">{member.job}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        ))}
+                    </Slider>
+                </div>
+
+                <div className="team__slider d-none d-xl-block">
+                    <Slider {...settingsDesktop}>
                         {teamMembers.map((member, index) => (
                             <div className="slider-element" key={index}>
                                 <div className="team-member">
