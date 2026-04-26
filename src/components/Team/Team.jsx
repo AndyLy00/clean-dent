@@ -21,7 +21,7 @@ const Team = () => {
         dots: false,
         infinite: teamMembers.length > 1,
         speed: 500,
-        slidesToShow: 4,
+        slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
         autoplay: true,
